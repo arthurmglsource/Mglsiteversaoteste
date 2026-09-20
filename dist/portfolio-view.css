@@ -1,0 +1,7 @@
+.work-bar{display:flex;justify-content:space-between;align-items:center;gap:20px}
+.portfolio-label{font-size:12px;letter-spacing:.09em;font-weight:500;text-align:right}
+.project-tile{cursor:default}
+@media(max-width:700px){
+ .work-bar{display:flex;justify-content:space-between;align-items:center;gap:12px}
+ .portfolio-label{font-size:11px}
+}

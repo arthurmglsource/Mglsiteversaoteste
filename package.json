@@ -1,0 +1,19 @@
+{
+  "name": "mgl-presence",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "lint": "node --check server.js scripts/build.mjs",
+    "build": "node scripts/build.mjs",
+    "db:generate": "drizzle-kit generate"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.4",
+    "drizzle-orm": "^0.44.5"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

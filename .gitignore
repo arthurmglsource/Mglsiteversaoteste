@@ -1,0 +1,7 @@
+work/
+outputs/
+.sites-runtime/
+.DS_Store
+node_modules/
+dist/client/
+dist/server/
